@@ -1,4 +1,4 @@
-<h1> <b> 🛒 Online Shopping System (Java OOP) </b> </h1>
+<h2> <b> 🛒 Online Shopping System (Java OOP) </b> </h2>
 
 Hi! This project is an Online Shopping System built with Java Swing. It’s not just a tool for buying and selling; it’s a practical application of clean software architecture and Object-Oriented Programming (OOP).
 
@@ -8,7 +8,7 @@ Hi! This project is an Online Shopping System built with Java Swing. It’s not 
 </p>
 
 
-<h1> <b> 🏗️ The MVC Model </b> </h1>
+<h2> <b> 🏗️ The MVC Model </b> </h2>
 
 I followed the MVC (Model-View-Controller) pattern:
 
@@ -34,7 +34,7 @@ I followed the MVC (Model-View-Controller) pattern:
 [ShoppingOnlineMVCModel.drawio.pdf](https://github.com/user-attachments/files/24842753/ShoppingOnlineMVCModel.drawio.pdf)
 
 
-<h1> <b> 💡 Using principles of OOP </b> </h1>
+<h2> <b> 💡 Using principles of OOP </b> </h2>
 
 I used the four principles of OOP:
 
@@ -65,7 +65,7 @@ This makes the code easier to maintain and extend, and hides the implementation 
 **Benefit:** This allows different types of data objects to be handled through a common interface, increasing flexibility and maintainability.
 
 
-<h1> <b> 👥 Roles & Responsibilities </b> </h1>
+<h2> <b> 👥 Roles & Responsibilities </b> </h2>
 
 The system is built for three distinct types of users:
 
@@ -78,7 +78,7 @@ The system is built for three distinct types of users:
 [ClassDiagram.drawio.pdf](https://github.com/user-attachments/files/24842756/ClassDiagram.drawio.pdf)
 
 
-<h1> <b> 🗄️ Database: The Memory of the App </b> </h1>
+<h2> <b> 🗄️ Database: The Memory of the App </b> </h2>
 
 I used MySQL to keep all the information organized and permanent:
 
