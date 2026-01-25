@@ -4,7 +4,7 @@ Hi! This project is an Online Shopping System built with Java Swing. It’s not 
 **Usecase Diagram:**
 
 <p align="center">
-  <img src="https://github.com/user-attachments/assets/c596fef7-60e2-4adc-8aeb-ee7115eb670b" width="800" alt="Use Case Diagram">
+  <img src="https://github.com/user-attachments/assets/c596fef7-60e2-4adc-8aeb-ee7115eb670b" width="650" alt="Use Case Diagram">
 </p>
 
 
