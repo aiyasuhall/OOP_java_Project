@@ -1,4 +1,5 @@
 🛒 **Online Shopping System (Java OOP)**
+
 Hi! This project is an Online Shopping System built with Java Swing. It’s not just a tool for buying and selling; it’s a practical application of clean software architecture and Object-Oriented Programming (OOP).
 **Usecase Diagram:**
 
@@ -7,6 +8,7 @@ Hi! This project is an Online Shopping System built with Java Swing. It’s not 
 </p>
 
 🏗️ **The MVC Model**
+
 I followed the MVC (Model-View-Controller) pattern:
 
 **Model (Entities):** These are the "building blocks" of the app. Classes like User, Product, and Category represent the data structures.
@@ -18,7 +20,6 @@ I followed the MVC (Model-View-Controller) pattern:
 **DAO (Data Access Object):** These are the "data assistants." They handle all the SQL queries, ensuring the rest of the app doesn't have to worry about the messy details of database communication.
 
 🔄 **MVC Workflow: How it Works**
-To give you a better idea of how the system operates, let’s look at what happens behind the scenes when a user logs in:
 
 **User Interaction (View):** Everything starts when you enter your email and password on the Login screen and click the button.
 
@@ -32,29 +33,38 @@ To give you a better idea of how the system operates, let’s look at what happe
 
 
 💡 **Using principles of OOP**
-I used the four core principles of OOP to make the system robust:
+
+I used the four principles of OOP:
 
 **Encapsulation (Security)**: All entity/model classes (such as User, Product, Supplier, Purchase, etc.) encapsulate their fields using the private access modifier. Access to these fields is provided via public getter and setter methods.
+
 **Benefit:** This protects the internal state of objects and prevents unintended interference from outside classes, ensuring data integrity.
 
+
 **Inheritance (Smart Reusing):** The project uses inheritance for code reuse and logical hierarchy, particularly in the DAO (Data Access Object) layer.
+
 **Benefit:** This promotes code reuse and reduces duplication by allowing common database logic to be defined in one place.
 
 [Inheritance Diagram.pdf](https://github.com/user-attachments/files/24842757/Inheritance.Diagram.pdf)
+
 
 **Abstraction (Simple Blueprints):** The code base is structured to hide complex details and expose only relevant operations at each layer. For example:
 o	DAOs abstract away all database interaction logic.
 o	Controllers abstract business logic away from the UI.
 o	Views (Swing classes) handle only user interface logic.
+
 **Benefit:** The rest of your code (like Controllers or other DAOs) interacts with DAOs using the abstract interface.
 They don’t need to know how the actual insert/update/delete is implemented.
 This makes the code easier to maintain and extend, and hides the implementation complexity.
 
+
 **Polymorphism (Flexibility):** The project leverages polymorphism mainly in the form of method overriding and generic programming. The Base_DAO<T> class defines abstract or generic CRUD operations, which are implemented or specialized by each specific DAO.
+
 **Benefit:** This allows different types of data objects to be handled through a common interface, increasing flexibility and maintainability.
 
 
 👥 **Roles & Responsibilities**
+
 The system is built for three distinct types of users:
 
 **Admin:** The "Superuser." They manage the entire catalog (products, categories), handle supplier and user accounts, and keep an eye on all transactions.
@@ -67,6 +77,7 @@ The system is built for three distinct types of users:
 
 
 🗄️ **Database: The Memory of the App**
+
 I used MySQL to keep all the information organized and permanent:
 
 **Reliable Storage:** From product stock to user credentials, everything is stored in relational tables.
