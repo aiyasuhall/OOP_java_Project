@@ -1,4 +1,4 @@
-#🛒 **Online Shopping System (Java OOP)**
+###🛒 **Online Shopping System (Java OOP)**
 
 Hi! This project is an Online Shopping System built with Java Swing. It’s not just a tool for buying and selling; it’s a practical application of clean software architecture and Object-Oriented Programming (OOP).
 **Usecase Diagram:**
@@ -7,7 +7,8 @@ Hi! This project is an Online Shopping System built with Java Swing. It’s not 
   <img src="https://github.com/user-attachments/assets/c596fef7-60e2-4adc-8aeb-ee7115eb670b" width="800" alt="Use Case Diagram">
 </p>
 
-🏗️ **The MVC Model**
+
+###🏗️ **The MVC Model**
 
 I followed the MVC (Model-View-Controller) pattern:
 
@@ -19,7 +20,8 @@ I followed the MVC (Model-View-Controller) pattern:
 
 **DAO (Data Access Object):** These are the "data assistants." They handle all the SQL queries, ensuring the rest of the app doesn't have to worry about the messy details of database communication.
 
-🔄 **MVC Workflow: How it Works**
+
+###🔄 **MVC Workflow: How it Works**
 
 **User Interaction (View):** Everything starts when you enter your email and password on the Login screen and click the button.
 
@@ -32,7 +34,7 @@ I followed the MVC (Model-View-Controller) pattern:
 [ShoppingOnlineMVCModel.drawio.pdf](https://github.com/user-attachments/files/24842753/ShoppingOnlineMVCModel.drawio.pdf)
 
 
-💡 **Using principles of OOP**
+###💡 **Using principles of OOP**
 
 I used the four principles of OOP:
 
@@ -63,7 +65,7 @@ This makes the code easier to maintain and extend, and hides the implementation 
 **Benefit:** This allows different types of data objects to be handled through a common interface, increasing flexibility and maintainability.
 
 
-👥 **Roles & Responsibilities**
+###👥 **Roles & Responsibilities**
 
 The system is built for three distinct types of users:
 
@@ -76,7 +78,7 @@ The system is built for three distinct types of users:
 [ClassDiagram.drawio.pdf](https://github.com/user-attachments/files/24842756/ClassDiagram.drawio.pdf)
 
 
-🗄️ **Database: The Memory of the App**
+###🗄️ **Database: The Memory of the App**
 
 I used MySQL to keep all the information organized and permanent:
 
