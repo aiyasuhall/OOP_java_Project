@@ -1,4 +1,4 @@
-<h2> <b> 🛒 Online Shopping System (Java OOP) </b> </h2>
+<h1> <b> 🛒 Online Shopping System (Java OOP) </b> </h1>
 
 Hi! This project is an Online Shopping System built with Java Swing. It’s not just a tool for buying and selling; it’s a practical application of clean software architecture and Object-Oriented Programming (OOP).
 
