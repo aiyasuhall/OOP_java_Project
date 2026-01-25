@@ -1,7 +1,10 @@
 🛒 **Online Shopping System (Java OOP)**
 Hi! This project is an Online Shopping System built with Java Swing. It’s not just a tool for buying and selling; it’s a practical application of clean software architecture and Object-Oriented Programming (OOP).
 **Usecase Diagram:**
-![UseCaseDiagram_](https://github.com/user-attachments/assets/c596fef7-60e2-4adc-8aeb-ee7115eb670b)
+
+<p align="center">
+  <img src="https://github.com/user-attachments/assets/c596fef7-60e2-4adc-8aeb-ee7115eb670b" width="400" alt="Use Case Diagram">
+</p>
 
 🏗️ **The MVC Model**
 I followed the MVC (Model-View-Controller) pattern:
