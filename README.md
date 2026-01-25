@@ -24,7 +24,9 @@ To give you a better idea of how the system operates, let’s look at what happe
 **Data Retrieval (Model):** If the credentials match, the UserDao fetches your data and wraps it into a User object. This object acts as a neat package containing your account details.
 
 **UI Update (View):** Finally, the Controller looks at the user type inside that Model and decides which dashboard to open for you—whether it's for an Admin, Supplier, or Customer.
+
 [ShoppingOnlineMVCModel.drawio.pdf](https://github.com/user-attachments/files/24842753/ShoppingOnlineMVCModel.drawio.pdf)
+
 
 💡 **Using principles of OOP**
 I used the four core principles of OOP to make the system robust:
@@ -34,6 +36,7 @@ I used the four core principles of OOP to make the system robust:
 
 **Inheritance (Smart Reusing):** The project uses inheritance for code reuse and logical hierarchy, particularly in the DAO (Data Access Object) layer.
 **Benefit:** This promotes code reuse and reduces duplication by allowing common database logic to be defined in one place.
+
 [Inheritance Diagram.pdf](https://github.com/user-attachments/files/24842757/Inheritance.Diagram.pdf)
 
 **Abstraction (Simple Blueprints):** The code base is structured to hide complex details and expose only relevant operations at each layer. For example:
@@ -47,6 +50,7 @@ This makes the code easier to maintain and extend, and hides the implementation 
 **Polymorphism (Flexibility):** The project leverages polymorphism mainly in the form of method overriding and generic programming. The Base_DAO<T> class defines abstract or generic CRUD operations, which are implemented or specialized by each specific DAO.
 **Benefit:** This allows different types of data objects to be handled through a common interface, increasing flexibility and maintainability.
 
+
 👥 **Roles & Responsibilities**
 The system is built for three distinct types of users:
 
@@ -55,7 +59,9 @@ The system is built for three distinct types of users:
 **User (Customer):** The shopper. They can browse products, manage their cart, place orders, and track their purchase history.
 
 **Supplier:** The logistics pro. They focus on delivering orders, tracking their delivery history, and managing their own profile.
+
 [ClassDiagram.drawio.pdf](https://github.com/user-attachments/files/24842756/ClassDiagram.drawio.pdf)
+
 
 🗄️ **Database: The Memory of the App**
 I used MySQL to keep all the information organized and permanent:
