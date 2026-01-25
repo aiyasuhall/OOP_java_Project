@@ -1,4 +1,4 @@
-###🛒 **Online Shopping System (Java OOP)**
+<h1>🛒 **Online Shopping System (Java OOP)** </h1>
 
 Hi! This project is an Online Shopping System built with Java Swing. It’s not just a tool for buying and selling; it’s a practical application of clean software architecture and Object-Oriented Programming (OOP).
 **Usecase Diagram:**
