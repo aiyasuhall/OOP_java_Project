@@ -1,4 +1,4 @@
-🛒 Online Shopping System (Java OOP)
+<h1> <b> 🛒 Online Shopping System (Java OOP) </b> </h1>
 
 Hi! This project is an Online Shopping System built with Java Swing. It’s not just a tool for buying and selling; it’s a practical application of clean software architecture and Object-Oriented Programming (OOP).
 **Usecase Diagram:**
@@ -8,7 +8,7 @@ Hi! This project is an Online Shopping System built with Java Swing. It’s not 
 </p>
 
 
-###🏗️ **The MVC Model**
+<h1> <b> 🏗️ The MVC Model </b> </h1>
 
 I followed the MVC (Model-View-Controller) pattern:
 
@@ -21,7 +21,7 @@ I followed the MVC (Model-View-Controller) pattern:
 **DAO (Data Access Object):** These are the "data assistants." They handle all the SQL queries, ensuring the rest of the app doesn't have to worry about the messy details of database communication.
 
 
-###🔄 **MVC Workflow: How it Works**
+🔄 **MVC Workflow: How it Works**
 
 **User Interaction (View):** Everything starts when you enter your email and password on the Login screen and click the button.
 
@@ -34,7 +34,7 @@ I followed the MVC (Model-View-Controller) pattern:
 [ShoppingOnlineMVCModel.drawio.pdf](https://github.com/user-attachments/files/24842753/ShoppingOnlineMVCModel.drawio.pdf)
 
 
-###💡 **Using principles of OOP**
+<h1> <b> 💡 Using principles of OOP </b> </h1>
 
 I used the four principles of OOP:
 
@@ -65,7 +65,7 @@ This makes the code easier to maintain and extend, and hides the implementation 
 **Benefit:** This allows different types of data objects to be handled through a common interface, increasing flexibility and maintainability.
 
 
-###👥 **Roles & Responsibilities**
+<h1> <b> 👥 Roles & Responsibilities </b> </h1>
 
 The system is built for three distinct types of users:
 
@@ -78,7 +78,7 @@ The system is built for three distinct types of users:
 [ClassDiagram.drawio.pdf](https://github.com/user-attachments/files/24842756/ClassDiagram.drawio.pdf)
 
 
-###🗄️ **Database: The Memory of the App**
+<h1> <b> 🗄️ Database: The Memory of the App </b> </h1>
 
 I used MySQL to keep all the information organized and permanent:
 
