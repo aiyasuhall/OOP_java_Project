@@ -5,9 +5,9 @@ import java.sql.DriverManager;
 import javax.swing.JOptionPane;
 
 public class MyConnection {
-    public static final String username = "root"; //seting username in mysql
-    public static final String password = "kHoivi2004@@"; //setting password in mysql
-    public static final String url = "jdbc:mysql://localhost:3306/online_shopping";
+    public static final String username = "your_username"; //seting username in mysql
+    public static final String password = "your_password"; //setting password in mysql
+    public static final String url = "your_url";
     public static Connection con = null;
     
     public static Connection getConnection() {
